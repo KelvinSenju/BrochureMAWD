@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagsubok ng Kalikasan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <div class="title">Pagsubok ng Kalikasan | MAWD 12 A</div>
+                <div class="links">
+                    <div class="dropdown">
+                        <a href="">Bagyo <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#typinfo">Ano ang Bagyo</a>
+                            <a href="#typart">Parte ng Bagyo</a>
+                            <a href="#typsignal">Typhoon Signals</a>
+                            <a href="#weather-section">Weather Section</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#dapat-gawin" id="dapat-gawin">Dapat Gawin <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-menu" id="dapat-gawin-menu">
+                            <a href="#before">Bago Mag-Bagyo</a>
+                            <a href="#during">Sa Oras ng Bagyo</a>
+                            <a href="#after">Katapos ng Bagyo</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#karagdagang-kaalaman" id="karagdagang-kaalaman">Karagdagang Kaalaman <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-menu" id="karagdagang-kaalaman-menu">
+                            <a href="#karagkaalaman">Kaalaman</a>
+                            <a href="#charity">Charity</a>
+                            <a href="#hotline">Hotline</a>
+                            <a href="#sanggunian">Sanggunian</a>
+                            <a href="#fun-facts">Fun Fact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-links">
+                <div class="dropdown-mobile" id="bagyo-mobile">
+                    <a href="#">Bagyo <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu-mobile" id="bagyo-menu-mobile">
+                        <a href="#typinfo">Ano ang Bagyo</a>
+                        <a href="#typart">Parte ng Bagyo</a>
+                        <a href="#typsignal">Typhoon Signals</a>
+                        <a href="#weather-section">Weather Section</a>
+                    </div>
+                </div>
+                <div class="dropdown-mobile" id="dapat-gawin-mobile">
+                    <a href="#">Dapat Gawin <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu-mobile" id="dapat-gawin-menu-mobile">
+                        <a href="#before">Bago Mag-Bagyo</a>
+                        <a href="#during">Sa Oras ng Bagyo</a>
+                        <a href="#after">Katapos ng Bagyo</a>
+                    </div>
+                </div>
+                <div class="dropdown-mobile" id="karagdagang-kaalaman-mobile">
+                    <a href="#">Karagdagang Kaalaman <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu-mobile" id="karagdagang-kaalaman-menu-mobile">
+                        <a href="#karagkaalaman">Kaalaman</a>
+                        <a href="#charity">Charity</a>
+                        <a href="#hotline">Hotline</a>
+                        <a href="#sanggunian">Sanggunian</a>
+                        <a href="#fun-facts">Fun Fact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>        
+        <section id="video-section">
+            <h2>Panoorin ang aming featured video!</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Qle5NUXsfM8?si=v8dVUWixbfQtvUlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <div id="typinfo" class="typhoon-info">
+            <h2><i class="fas fa-wind"></i> Ano ang Bagyo?</h2>
+            <p>
+                Ang <span class="highlight">bagyo</span> ay isang napakalakas na sistema ng hangin na nagmumula sa mga karagatan, na may mababang presyon sa gitna. Ang mga bagyo ay kilala sa kanilang kakayahan na magdulot ng malalakas na hangin, matinding pag-ulan, at pagbaha, na maaaring magresulta sa malawakang pinsala sa mga komunidad.
+            </p>
+            <p>
+                Sa Pilipinas, ang bagyo ay binubuo ng tatlong pangunahing bahagi na nagdadala ng iba't ibang epekto:
+            </p>
+            <div id="typart" class="typhoon-parts">
+                <div class="typhoon-part">
+                    <i class="fas fa-eye"></i>
+                    <p><strong>Mata ng Bagyo:</strong> Ang kalmadong bahagi sa gitna, na maaaring umabot sa 20-50 km ang lapad. Dito, ang hangin ay halos walang galaw, at ang langit ay maaring maging maliwanag. Sa gitna ng napakalakas na bagyo, ito ang sandaling katahimikan na tumatagal bago muling bumalik ang mga malalakas na hangin at ulan.</p>
+                    <img src="img/eye.jpg">
+                </div>
+                <div class="typhoon-part">
+                    <i class="fas fa-cloud-showers-heavy"></i>
+                    <p><strong>Eyewall:</strong> Ang rehiyon na nakapalibot sa mata, kung saan matatagpuan ang pinakamalakas na hangin at pinakamatinding ulan. Ang eyewall ay ang pinaka-delikadong bahagi ng bagyo, na nagdudulot ng malalakas na pagbayo ng hangin na kayang magpatumba ng mga puno, poste, at iba pang estruktura.</p>
+                    <img src="img/eyewall.jpg">
+                </div>
+                <div class="typhoon-part">
+                    <i class="fas fa-cloud-rain"></i>
+                    <p><strong>Rainbands:</strong> Mga pabilog na ulap at ulan na kumakalat palabas mula sa eyewall. Ang rainbands ay nagdadala ng malakas na buhos ng ulan at hangin sa mas malalawak na lugar, na maaaring magdulot ng pagbaha at pagguho ng lupa. Ito ang nagiging sanhi ng mga biglaang pagbaha sa mga lugar na malayo sa mismong sentro ng bagyo.</p>
+                    <img src="img/rainbands.gif">
+                </div>
+            </div>
+            <p>
+                Nabubuo ang bagyo kapag ang mainit na tubig sa karagatan ay nagpapainit sa hangin sa ibabaw nito. Ang mainit na hangin ay tumataas at nagiging sanhi ng pagbuo ng mababang presyon sa ibabaw ng dagat. Habang patuloy itong umaangat, ang hangin ay umiikot dahil sa Coriolis effect, na nagbibigay ng pag-ikot sa bagyo.
+            </p>
+            <p>
+                Ang pag-absorb ng enerhiya mula sa mainit na tubig ay nagpapatuloy, na nagpapalakas sa bagyo. Sa bawat pag-ikot at pagtaas ng enerhiya, ang bagyo ay nagiging mas malakas, na kayang umabot sa napakalaking lakas at malawakang pinsala. Sa average, ang Pilipinas ay nakakaranas ng 20 bagyo taun-taon, at tatlo o apat dito ay maaaring magdulot ng malawakang pinsala.
+            </p>
+            <p>
+                Ang mga bagyo ay tinutukoy at sinusubaybayan sa ilalim ng <span class="highlight">Philippine Area of Responsibility (PAR),</span> na sumasaklaw sa isang tiyak na bahagi ng karagatang Pasipiko. Kapag pumasok sa PAR, ang mga bagyo ay binibigyan ng lokal na pangalan, at sinimulan ang malapitang pagbabantay at pagbigay babala sa publiko.
+            </p>
+        </div>
+        <div id="typsignal" class="typhoon-signals">
+            <h2><i class="fas fa-signs-post"></i> Public Storm Warning Signals</h2>
+            <div class="signal">
+                <div class="signal-icon" style="background-color: #006400;"><i class="fas fa-circle"></i></div>
+                <div class="signal-info">
+                    <h3>Signal 1 (Tropical Depression)</h3>
+                    <p>Hangin na umaabot sa 30-60 kph, inaasahan sa loob ng 36 oras.</p>
+                    <p><strong>Explanation:</strong> Signal No. 1 indicates a Tropical Depression. This is the lowest level of storm warning and signifies the potential for minor damage. Winds are expected to be between 30-60 kph, and the storm is expected to affect the area within 36 hours. It's a signal that residents should stay alert and prepare for possible changes in the weather.</p>
+                </div>
+            </div>
+            <div class="signal">
+                <div class="signal-icon" style="background-color: #7CFC00;"><i class="fas fa-circle"></i></div>
+                <div class="signal-info">
+                    <h3>Signal 2 (Tropical Storm)</h3>
+                    <p>Hangin na umaabot sa 61-120 kph, inaasahan sa loob ng 24 oras.</p>
+                    <p><strong>Explanation:</strong> Signal No. 2 signifies a Tropical Storm. It involves stronger winds ranging from 61-120 kph, with potential for significant impact. The storm is expected to reach the area within 24 hours. People should take precautions as the risk of damage to property and disruptions to daily life increases.</p>
+                </div>
+            </div>
+            <div class="signal">
+                <div class="signal-icon" style="background-color: #FFFF00;"><i class="fas fa-circle"></i></div>
+                <div class="signal-info">
+                    <h3>Signal 3 (Severe Tropical Storm)</h3>
+                    <p>Hangin na umaabot sa 121-170 kph, inaasahan sa loob ng 18 oras.</p>
+                    <p><strong>Explanation:</strong> Signal No. 3 indicates a Severe Tropical Storm with winds reaching 121-170 kph. This level of storm poses a high risk of extensive damage and disruption. The storm is expected to hit within 18 hours, necessitating urgent preparations and possible evacuations.</p>
+                </div>
+            </div>
+            <div class="signal">
+                <div class="signal-icon" style="background-color: #FF8C00;"><i class="fas fa-circle"></i></div>
+                <div class="signal-info">
+                    <h3>Signal 4 (Typhoon)</h3>
+                    <p>Hangin na umaabot sa 171-220 kph, inaasahan sa loob ng 12 oras.</p>
+                    <p><strong>Explanation:</strong> Signal No. 4 denotes a Typhoon with winds of 171-220 kph. This is a severe storm capable of causing widespread and significant damage. The storm is anticipated to arrive within 12 hours, making it crucial for residents to follow all warnings and evacuate if necessary.</p>
+                </div>
+            </div>
+            <div class="signal">
+                <div class="signal-icon" style="background-color: #8B0000;"><i class="fas fa-circle"></i></div>
+                <div class="signal-info">
+                    <h3>Signal 5 (Super Typhoon)</h3>
+                    <p>Hangin na higit sa 220 kph, inaasahan sa loob ng 12 oras.</p>
+                    <p><strong>Explanation:</strong> Signal No. 5 is for a Super Typhoon with winds exceeding 220 kph. This is the highest level of storm warning, indicating catastrophic conditions. The storm is expected to impact the area within 12 hours, and it is essential for everyone to adhere strictly to evacuation orders and safety measures to protect lives and property.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="weather-section" class="weather-section">
+            <h3>San Fernando, Pampanga, Philippines <br> Weekly Weather Forecast</h3>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/15d06120d66/san-fernando/" data-label_1="SAN FERNANDO" data-label_2="WEATHER" data-font="Open Sans" data-theme="original" >SAN FERNANDO WEATHER</a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </div>
+
+        <div class="typhoon-prep">
+            <h2><i class="fas fa-umbrella"></i>Ano ang gagawin kapag may bagyo?<i class="fas fa-umbrella"></i></h2>
+            <div class="typhoon-steps">
+                <div id="before" class="step">
+                    <img src="img/jherrie.png" alt="Bago ang Bagyo">
+                    <h3>Pagpaplano at Paghahanda</h3>
+                    <p>
+                        Bago dumating ang bagyo, suriin ang iyong tahanan para sa mga posibleng sira, tulad ng kisame at bintana. Siguraduhing kumpleto ang emergency go-bag na naglalaman ng mga pangunahing pangangailangan tulad ng tubig, pagkain, at mga gamot. Mag-update sa mga typhoon signal warnings at sundin ang mga tagubilin mula sa lokal na awtoridad. Maglaan ng oras para sa mga kinakailangang pag-iingat upang tiyakin ang kaligtasan ng pamilya.
+                    </p>
+                </div>
+                <div id="during" class="step">
+                    <img src="img/randell.jpg" alt="Sa Oras ng Bagyo">
+                    <h3>Sa Panahon ng Bagyo</h3>
+                    <p>
+                        Manatili sa loob ng bahay upang iwasan ang panganib mula sa malakas na hangin at pagbaha. Iwasan ang paglalabas maliban kung kinakailangan. Kung kailangan mong lumabas, tiyaking may sapat na proteksyon laban sa hangin at ulan. Mag-ingat sa mga lugar na binaha at huwag maglakad sa mga kalsadang maaaring may dalang kuryente. Siguraduhing nailipat ang mga mahahalagang bagay sa mataas na lugar upang maiwasan ang pinsala.
+                    </p>
+                </div>
+                <div id="after" class="step">
+                    <img src="img/CALEB.jpg" alt="Pagkatapos ng Bagyo">
+                    <h3>Pagkatapos ng Bagyo</h3>
+                    <p>
+                        Pagkatapos ng bagyo, magsagawa ng agarang pagsusuri sa pinsala sa iyong tahanan. Suriin ang mga lugar na maaaring may sira o panganib tulad ng mga nasirang kable at tubo. Simulan ang paglilinis at pag-aayos ng mga nasirang bagay. Siguraduhing malinis ang tubig at pagkain bago ito gamitin. Mag-ulat ng mga pinsala sa mga awtoridad at makinig sa kanilang mga tagubilin para sa mga susunod na hakbang. Maghanda para sa susunod na sakuna sa pamamagitan ng pagkakaroon ng emergency supplies.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="karagdagang-kaalaman">
+            <h2><i class="fas fa-book"></i> Karagdagang Kaalaman</h2>
+                <div id="karagkaalaman" class="knowledge-container">
+                    <div class="knowledge-item">
+                        <h2><i class="fas fa-info-circle"></i> Kaalaman</h2>
+                        <p>Alamin ang higit pang detalye tungkol sa mga bagyo at ang kanilang epekto. Magbasa ng mga artikulo at manood ng mga video upang mapalalim ang iyong pang-unawa.</p>
+
+                        <hr>
+
+                        <h2>Paano pinapangalanan at natutukoy ang mga bagyo?</h2>
+                        <p>Gumagamit ang mga meteorologist ng Doppler radar, satellite, weather buoys, reconnaissance plane, at ground stations para subaybayan at hulaan ang mga bagyo, na nagbibigay ng tumpak na pagtataya at maagang babala. Ang mga bagyo sa Pilipinas ay pinapangalanan ng PAGASA mula sa isang itinakdang listahan bawat taon, at kapag nagdulot ng matinding pinsala, ang pangalan nito ay nireretiro at pinapalitan ng bago para sa mga susunod na taon.</p>
+
+                        <hr>
+
+                        <h2>Ano naman ang storm surge?</h2>
+                        <p>Ang storm surge ay pagtaas ng antas ng dagat na dulot ng malalakas na hangin sa panahon ng bagyo, na nagdudulot ng pagbaha at pinsala sa baybayin.</p>
+
+                        <hr>
+
+                        <h2>Ano-ano naman ang mga iilang bagyong sumalanta sa Pilipinas?</h2>
+                        <div class="typhoon-details">
+                            <div class="typhoon-item">
+                                <h4>Bagyong Goni (Rolly)</h4>
+                                <p><strong>Date:</strong> Nobyembre 2020</p>
+                                <p><strong>Signal No.:</strong> Signal No. 4</p>
+                                <p><strong>Details:</strong> Bagyong Goni, kilala rin bilang Typhoon Goni sa internasyonal, ay isa sa mga pinakamalakas na bagyo na tumama sa Pilipinas noong mga nakaraang taon. Pumasok ito sa Bicol region na may pinakamataas na hangin na higit sa 300 km/h (185 mph). Nagdulot ito ng malaking pinsala, partikular sa Bicol region at bahagi ng Luzon, na nagresulta sa malawakang pagbaha, pagguho ng lupa, at pagkasira ng imprastruktura. Ito ay ikinategorya bilang isang Category 5 super typhoon bago mag-landfall.</p>
+                            </div>
+                            <hr>
+                            <div class="typhoon-item">
+                                <h4>Bagyong Mangkhut (Ompong)</h4>
+                                <p><strong>Date:</strong> Setyembre 2018</p>
+                                <p><strong>Signal No.:</strong> Signal No. 4</p>
+                                <p><strong>Details:</strong> Bagyong Mangkhut, kilala sa internasyonal bilang Typhoon Mangkhut, ang pinakamalakas na bagyo ng 2018. Tumama ito sa hilagang bahagi ng Pilipinas, kabilang ang Luzon, na may mapaminsalang puwersa. Ang Mangkhut ay may hangin na higit sa 250 km/h (155 mph) at nagdala ng malalakas na ulan na nagdulot ng malawakang pagbaha at pagguho ng lupa. Nagresulta ito sa malawakang pinsala sa mga lugar ng agrikultura at urban na sentro, na apektado ang milyun-milyong tao.</p>
+                            </div>
+                            <hr>
+                            <div class="typhoon-item">
+                                <h4>Bagyong Yolanda (Haiyan)</h4>
+                                <p><strong>Date:</strong> Nobyembre 2013</p>
+                                <p><strong>Signal No.:</strong> Signal No. 4</p>
+                                <p><strong>Details:</strong> Bagyong Yolanda, na kilala sa internasyonal bilang Typhoon Haiyan, ay isa sa pinakamalakas na bagyo na naitalang dumaan. Tumama ito sa Pilipinas na may hangin na umabot sa 315 km/h (195 mph). Ang Yolanda ay nagdulot ng napakalaking pinsala sa buong rehiyon ng Visayas, partikular sa Tacloban City at mga karatig lugar. Nagresulta ito sa isang malaking krisis sa humanitarian, na may libu-libong nasawi, malawakang pagkasira ng mga tahanan, at matinding pagkaabala sa imprastruktura at serbisyo. Isa ito sa mga pinaka-nakamamatay at pinaka-mapaminsalang bagyo sa kasaysayan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="charity" class="knowledge-item">
+                    <h3><i class="fas fa-hands-helping"></i> Charity</h3>
+                    <p>Suportahan ang mga ahensya at organisasyon na tumutulong sa mga naapektuhan ng bagyo. Narito ang mga paraan kung paano ka makakatulong.</p>
+                    <ul>
+                        <li><a href="https://www.allhandsandhearts.org/programs/philippines-typhoon-relief/" target="_blank" rel="noopener noreferrer">All Hands and Hearts Charity</a></li>
+                        <li><a href="https://www.unicefusa.org/what-unicef-does/emergency-response/weather-disasters/typhoons" target="_blank" rel="noopener noreferrer">UNICEF Typhoon Relief</a></li>
+                        <li><a href="https://www.angatbuhay.ph/" target="_blank" rel="noopener noreferrer">Angat Buhay Charity</a></li>
+                    </ul>
+                </div>
+                
+                <hr>
+                
+                <div id="hotline" class="knowledge-item">
+                    <h3><i class="fas fa-phone-alt"></i> Hotline</h3>
+                    <p>Makakuha ng mabilis na impormasyon at suporta sa pamamagitan ng mga hotline na ibinibigay ng gobyerno at NGOs.</p>
+                    <ul>
+                        <li>NDRRMC: 0917-845-8088 / 0917-870-2545</li>
+                        <li>Philippine Red Cross: 143 / (02) 8790-2300
+                        </li>
+                        <li>DSWD: (02) 931-8101 to 07</li>
+                        <li>National Emergency Hotline: 911</li>
+                    </ul>
+                </div>
+                
+                <hr>
+                
+                <div id="sanggunian" class="knowledge-item">
+                    <h3><i class="fas fa-bookmark"></i> Sanggunian</h3>
+                    <p>Mga mapagkukunan para sa karagdagang kaalaman at pag-aaral. Tumuklas ng mga libro, artikulo, at iba pang mga resources.</p>
+                    <ul>
+                        <li><a href="https://www.pagasa.dost.gov.ph/learnings/faqs-and-trivias" target="_blank" rel="noopener noreferrer">PAGASA: Emergency preparedness tips - Typhoons</a></li>
+                        <li><a href="https://www.unicef.org/philippines/emergency-preparedness-tips-typhoons" target="_blank" rel="noopener noreferrer">UNICEF Philippines: Emergency preparedness tips - Typhoons</a></li>
+                        <li><a href="https://www.noaa.gov/jetstream/tropical/tropical-cyclone-introduction/tropical-cyclone-structure" target="_blank" rel="noopener noreferrer">National Oceanic and Atmospheric Administration: Tropical Cyclone Structure</a></li>
+                        <li><a href="https://www.ready.gov/tl/hurricanes" target="_blank" rel="noopener noreferrer">Ready.gov: Mga Bagyo</a></li>
+                        <li><a href="https://bacoor.gov.ph/latest-news/mga-dapat-gawin-bago-habnag-at-pagkatapos-ng-bagyo/" target="_blank" rel="noopener noreferrer">Bacoor.gov.ph: Mga Dapat Gawin Bago, Habang, at Pagkatapos ng Bagyo</a></li>
+                    </ul>
+                </div>
+
+                <section id="fun-facts">
+                    <h2>Fun Facts</h2>
+                    <div class="card">
+                        <div class="card-text active">
+                            <p>Alam mo ba na ang Pilipinas ay tinatamaan ng humigit-kumulang 20 bagyo bawat taon, kung saan 8-9 ang nagla-landfall?</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Alam mo ba na ang mga bagyo sa Pilipinas ay may sariling lokal na pangalan, tulad ng "Yolanda" para sa Typhoon Haiyan?</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Alam mo ba na sinusubaybayan ng PAGASA ang mga bagyo mula pa noong 1972, isa sa mga pinakamatandang sistema sa rehiyon?</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Alam mo ba na ang salitang "bagyo" ay nagmula sa Baguio, matapos bumuhos ang 46 pulgada ng ulan sa loob lamang ng 24 na oras noong 1911?</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Alam mo ba na ang Bagyong Yolanda ang pinakamalakas na bagyong naitala sa kasaysayan, at sa kabila ng matinding pinsalang dulot nito, ipinakita ng mga Pilipino ang kanilang hindi matitinag na katatagan?</p>
+                        </div>
+                    </div>
+                    <button id="next-btn">Next Fact</button>
+                </section>
+                <section id="group-members">
+                    <h2>Group 3 ng MAWD 12 A</h2>
+                    <hr>
+                    <div class="members-container">
+                        <div class="member">
+                            <img src="2by2/Kelv.jpg" alt="Member 1">
+                            <h3 class="small">Kelvin Rhay M. Dela Cruz</h3>
+                            <p>Lider. Ang nagdirek sa mga kagrupo sa mga gawain. Ang taga-disenyo ng brochure at website.</p>
+                            <hr>
+                        </div>
+                        <div class="member">
+                            <img src="2by2/Enr.jpg" alt="Member 2">
+                            <h3 class="big">Enrico Miguel T. Labao</h3>
+                            <p>Taga-sulat ng fun facts at karagdagang kaalaman.</p>
+                            <hr>
+                        </div>
+                        <div class="member">
+                            <img src="2by2/Randell.jpg" alt="Member 3">
+                            <h3 class="big">Randell N. Lingat</h3>
+                            <p>Taga-sulat ng mga kailangang gawin bago dumating ang bagyo. Isa sa mga modelo sa ilang retrato.</p>
+                            <hr>
+                        </div>
+                        <div class="member">
+                            <img src="2by2/Caleb.jpg" alt="Member 3">
+                            <h3 class="small">Caleb Josiah V. Macapagal</h3>
+                            <p>Taga-sulat ng mga pangunahing impormasyon tungkol sa bagyo. Isa sa mga modelo sa ilang retrato</p>
+                            <hr>
+                        </div>
+                        <div class="member">
+                            <img src="2by2/Steph.jpg" alt="Member 3">
+                            <h3 class="small">Stephen Ivan O. Navarro</h3>
+                            <p>Pangalawang taga-sulat ng mga karagdagang impormasyon tulad ng mga fun facts, hotlines at charity.</p>
+                            <hr>
+                        </div>
+                        <div class="member">
+                            <img src="2by2/Jherrie.jpg" alt="Member 3">
+                            <h3 class="big">Jherrie A. Pantig</h3>
+                            <p>Taga-sulat ng mga kailangang gawin sa oras ng bagyo. Isa sa mga modelo sa ilang retrato.</p>
+                            <hr>
+                        </div>
+                        <div class="member">
+                            <img src="2by2/Tolentino.jpg" alt="Member 3">
+                            <h3 class="big">Jhon Gabriel Q. Tolentino</h3>
+                            <p>Taga-sulat ng mga kailangang gawin pagkatapos ng bagyo.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+        </div>        
+    </body>
+    <footer>
+        <p>&copy; MAWD 12 A | Group 3. All rights reserved.</p>
+    </footer>
+    
+    
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.querySelector('.menu-icon');
+            const mobileLinks = document.querySelector('.mobile-links');
+
+            menuIcon.addEventListener('click', function() {
+                mobileLinks.classList.toggle('show');
+            });
+
+            const dropdownMobile = document.querySelector('.dropdown-mobile > a');
+            const dropdownMenuMobile = document.querySelector('.dropdown-menu-mobile');
+
+            dropdownMobile.addEventListener('click', function() {
+                dropdownMenuMobile.classList.toggle('show');
+            });
+        });
+
+        !function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+            js=d.createElement(s);
+            js.id=id;
+            js.src='https://weatherwidget.io/js/widget.min.js';
+            fjs.parentNode.insertBefore(js,fjs);
+        }
+            }(document,'script','weatherwidget-io-js');
+
+            document.addEventListener("DOMContentLoaded", function() {
+            function toggleDropdown(id) {
+                var dropdown = document.getElementById(id);
+                var isVisible = dropdown.classList.contains('show');
+                var allDropdowns = document.querySelectorAll('.dropdown-menu-mobile');
+        
+                allDropdowns.forEach(function(menu) {
+                    menu.classList.remove('show');
+                });
+        
+                if (!isVisible) {
+                    dropdown.classList.add('show');
+                }
+            }
+        
+            document.getElementById('bagyo-mobile').addEventListener('click', function() {
+                toggleDropdown('bagyo-menu-mobile');
+            });
+        
+            document.getElementById('dapat-gawin-mobile').addEventListener('click', function() {
+                toggleDropdown('dapat-gawin-menu-mobile');
+            });
+        
+            document.getElementById('karagdagang-kaalaman-mobile').addEventListener('click', function() {
+                toggleDropdown('karagdagang-kaalaman-menu-mobile');
+            });
+        });
+    </script>
+    <script>
+        const texts = document.querySelectorAll('.card-text');
+        const nextBtn = document.getElementById('next-btn');
+        let currentIndex = 0;
+    
+        nextBtn.addEventListener('click', () => {
+        const currentText = texts[currentIndex];
+        const nextIndex = (currentIndex + 1) % texts.length;
+        const nextText = texts[nextIndex];
+    
+        currentText.classList.remove('active');
+        currentText.classList.add('exit-left');
+    
+        nextText.classList.add('enter-right');
+        nextText.classList.add('active');
+    
+        setTimeout(() => {
+            currentText.classList.remove('exit-left');
+            currentText.classList.remove('active');
+            currentText.classList.add('hidden');
+            
+            nextText.classList.remove('enter-right');
+        }, 600); 
+    
+        currentIndex = nextIndex;
+    });
+    </script>
+</body>
+</html>
